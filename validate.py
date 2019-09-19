@@ -16,23 +16,23 @@ parser.add_argument('--batch_size', type = int, default = 256,
                     help = 'the batch size')
 parser.add_argument('--learning_rate', type = float, default = 0.001,
                     help = 'the learning rate')
-parser.add_argument('--beam_width', type = int, default = 10,
+parser.add_argument('--beam_width', type = int, default = 256,
                     help = 'the beam width when decoding')
 parser.add_argument('--word_embed_size', type = int, default = 256,
                     help = 'the size of word embeddings')
-parser.add_argument('--emot_input_layer_size', type = int, default = 128,
+parser.add_argument('--emot_input_layer_size', type = int, default = 256,
                     help = 'the size of emotion input layer')
 parser.add_argument('--n_hidden_units_enc_s', type = int, default = 256,
                     help = 'the number of encoder hidden units (syntax)')
-parser.add_argument('--n_hidden_units_enc_e', type = int, default = 128,
+parser.add_argument('--n_hidden_units_enc_e', type = int, default = 256,
                     help = 'the number of encoder hidden units (emotion)')
-parser.add_argument('--n_hidden_units_dec', type = int, default = 512,
+parser.add_argument('--n_hidden_units_dec', type = int, default = 256,
                     help = 'the number of decoder hidden units')
 parser.add_argument('--n_emot', type = int, default = 6,
                     help = 'number of emotion categories')
-parser.add_argument('--word_level_attn_depth', type = int, default = 512,
+parser.add_argument('--word_level_attn_depth', type = int, default = 256,
                     help = 'word-level attention depth')
-parser.add_argument('--uttr_level_attn_depth', type = int, default = 256,
+parser.add_argument('--uttr_level_attn_depth', type = int, default = 128,
                     help = 'uttrance-level attention depth')
 parser.add_argument('--beta', type = float, default = 1.0,
                     help = 'trade-off between syntax and emotion')
