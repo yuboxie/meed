@@ -1,5 +1,9 @@
 # Multi-Turn Emotionally Engaging Dialog Model (MEED)
 
+Code for paper
+> Yubo Xie, Ekaterina Svikhnushina, and Pearl Pu. A Multi-Turn Emotionally Engaging Dialog Model.
+> IUI 2020 Workshop on User-Aware Conversational Agents. [PDF Link](https://arxiv.org/pdf/1908.07816.pdf).
+
 ## Environment
 The project was developed under the following environment:
 - TensorFlow 1.12.0
